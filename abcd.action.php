@@ -500,4 +500,9 @@ class abcd extends base
         }
         include templates("mobile/vip","zhuanzhang_success");
     }
+
+    function test(){
+        var_dump(1);
+        //测试专用
+    }
 }
